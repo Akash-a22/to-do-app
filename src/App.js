@@ -29,50 +29,6 @@ function Home() {
   }, [list]);
 
   return (
-    // <div className="flex justify-center items-center h-screen">
-    //   <div className="bg-gray-400 shadow-lg rounded-lg pl-2 pr-2 h-64 w-64 relative">
-    //     <h2 className="text-xl font-bold mb-4">Add Note </h2>
-    //     <div className="flex px-2">
-    //       <input
-    //         onChange={(e) => {
-    //           setNote(e.target.value);
-    //         }}
-    //         className="border border-gray-300 rounded-l px-4 py-2 w-full"
-    //         value={note}
-    //         placeholder="enter note"
-    //       ></input>
-    //       <button
-    //         onClick={() => {
-    //           saveToNoteList();
-    //         }}
-    //         className=" tbg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 bg-blue-600 ml-2"
-    //       >
-    //         Add
-    //       </button>
-    //     </div>
-    //     <div className="">
-    //       <ul className="space-y-4">
-    //         {list.map((item) => (
-    //           <li key={item.id} className="flex items-center">
-    //             <div className="">
-    //               <GetEachNote content={item.content} />
-    //             </div>
-    //             {item.content !== "" && (
-    //               <button
-    //                 className="bg-red-500  w-20 content-end justify-end h-10 text-white px-4 py-2 rounded ml-2 hover:bg-red-600"
-    //                 onClick={() => {
-    //                   removeNote(item.id);
-    //                 }}
-    //               >
-    //                 Clear
-    //               </button>
-    //             )}
-    //           </li>
-    //         ))}
-    //       </ul>
-    //     </div>
-    //   </div>
-    // </div>
     <div className="flex justify-center items-center h-screen">
       <div className="bg-gray-400 shadow-lg rounded-lg p-4 w-80 h-auto max-h-96 overflow-y-auto">
         {checkSize ? (
