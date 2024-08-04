@@ -40,3 +40,44 @@
     transform: rotate(360deg);
   }
 }
+
+.about-page {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.about-header {
+  text-align: center;
+}
+
+.about-section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  border-bottom: 1px solid #282c34;
+  padding-bottom: 5px;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+
+.team-member h3 {
+  margin: 0;
+}
+
+.about-footer {
+  text-align: center;
+  margin-top: 20px;
+}

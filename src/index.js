@@ -5,6 +5,8 @@ import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import Header from "./Component/Header";
 import Footer from "./Component/Footer";
 import Home from "./App";
+import Contact from "./Component/Contact";
+import About from "./Component/About";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -26,6 +28,14 @@ const appConfig = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/about",
+        element: <About />,
       },
     ],
   },
